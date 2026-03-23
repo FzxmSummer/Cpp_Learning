@@ -1,0 +1,35 @@
+# Visual Studio cache/options
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio C/C++ outputs
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+ipch/
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+
+# Executables and libraries
+*.exe
+*.dll
+*.lib
+*.exp
+
+# VS Code workspace/build temp
+.vscode/
+.vscode-test/
