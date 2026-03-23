@@ -1,0 +1,45 @@
+{
+    // ========== 核心：隐藏非C++相关文件 ==========
+    "files.exclude": {
+        // 编译产物
+        "**/*.o": true,
+        "**/*.obj": true,
+        "**/*.exe": true,
+        "**/*.dll": true,
+        "**/*.lib": true,
+        "**/*.pdb": true,
+        "**/*.out": true,
+        "**/*.ilk": true,
+        // 临时/日志文件
+        "**/*.log": true,
+        "**/*.tmp": true,
+        "**/*.bak": true,
+        // 编译目录
+        "**/build": true,
+        "**/cmake-build-*": true,
+        "**/Debug": true,
+        "**/Release": true,
+        // 版本控制/系统文件
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        // 可选：隐藏VS工程文件（如果不需要）
+        "**/*.sln": false, // 设为true则隐藏，false则显示
+        "**/*.vcxproj*": false
+    },
+    // ========== 可选：增强C++体验的配置 ==========
+    // 搜索时也排除上述文件，避免搜到编译产物
+    "files.watcherExclude": {
+        "**/build/**": true,
+        "**/*.obj": true
+    },
+    // 保存时自动格式化（需安装C/C++插件）
+    "editor.formatOnSave": true,
+    // 默认格式化工具选clang-format（需安装）
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+}

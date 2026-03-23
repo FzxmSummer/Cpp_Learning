@@ -1,0 +1,49 @@
+#include <string>
+#include <iostream>
+
+// 提取文件名
+std::string get_file_name(const std::string &path)
+{
+    auto pos = path.find_last_of('/\\');
+    if (pos == std::string::npos)
+    {
+        return path;
+    }
+
+    return path.substr(pos + 1);
+}
+
+// 提取文件扩展名
+std::string get_file_extension(const std::string &path)
+{
+    auto pos = path.find_last_of('.');
+    if (pos == std::string::npos)
+    {
+        return "";
+    }
+
+    return path.substr(pos + 1);
+}
+
+// 提取目录
+std::string get_dir(const std::string &path)
+{
+    auto pos = path.find_last_of("/\\");
+    if (pos == std::string::npos)
+    {
+        return "";
+    }
+
+    return path.substr(0, pos);
+}
+
+int main()
+{
+    std::string path{"\\home\\user\\test.txt"};
+    std::cout << "完整路径" << path << std::endl;
+    std::cout << "文件名" << get_file_name(path) << std::endl;
+    std::cout << "后缀：" << get_file_extension(path) << std::endl;
+    std::cout << "目录" << get_dir(path) << std::endl;
+
+    return 0;
+}

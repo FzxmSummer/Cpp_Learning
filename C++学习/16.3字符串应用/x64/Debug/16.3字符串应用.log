@@ -1,0 +1,8 @@
+﻿  16.3字符串应用.cpp
+D:\Users\Administrator\Desktop\C++\C++ 学习代码\C++学习\16.3字符串应用\16.3字符串应用.cpp(7,34): warning C4305: “参数”: 从“int”到“const _Elem”截断
+D:\Users\Administrator\Desktop\C++\C++ 学习代码\C++学习\16.3字符串应用\16.3字符串应用.cpp(7,34): warning C4305:         with
+D:\Users\Administrator\Desktop\C++\C++ 学习代码\C++学习\16.3字符串应用\16.3字符串应用.cpp(7,34): warning C4305:         [
+D:\Users\Administrator\Desktop\C++\C++ 学习代码\C++学习\16.3字符串应用\16.3字符串应用.cpp(7,34): warning C4305:             _Elem=char
+D:\Users\Administrator\Desktop\C++\C++ 学习代码\C++学习\16.3字符串应用\16.3字符串应用.cpp(7,34): warning C4305:         ]
+D:\Users\Administrator\Desktop\C++\C++ 学习代码\C++学习\16.3字符串应用\16.3字符串应用.cpp(7,34): warning C4309: “参数”: 截断常量值
+  16.3字符串应用.vcxproj -> D:\Users\Administrator\Desktop\C++\C++ 学习代码\C++学习\x64\Debug\16.3字符串应用.exe
