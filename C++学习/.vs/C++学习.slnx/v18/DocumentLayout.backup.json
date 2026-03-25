@@ -5,9 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{25B3AC79-9DC9-4EB0-946D-D3595C3BF950}|16.3\u5B57\u7B26\u4E32\u5E94\u7528\\16.3\u5B57\u7B26\u4E32\u5E94\u7528.vcxproj|D:\\Users\\Administrator\\Desktop\\C\u002B\u002B\\C\u002B\u002B \u5B66\u4E60\u4EE3\u7801\\C\u002B\u002B\u5B66\u4E60\\16.3\u5B57\u7B26\u4E32\u5E94\u7528\\16.3\u5B57\u7B26\u4E32\u5E94\u7528.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{25B3AC79-9DC9-4EB0-946D-D3595C3BF950}|16.3\u5B57\u7B26\u4E32\u5E94\u7528\\16.3\u5B57\u7B26\u4E32\u5E94\u7528.vcxproj|solutionrelative:16.3\u5B57\u7B26\u4E32\u5E94\u7528\\16.3\u5B57\u7B26\u4E32\u5E94\u7528.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25B3AC79-9DC9-4EB0-946D-D3595C3BF950}|16.3\u5B57\u7B26\u4E32\u5E94\u7528\\16.3\u5B57\u7B26\u4E32\u5E94\u7528.vcxproj|E:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\18\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.50.35717\\INCLUDE\\STRING||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -29,24 +26,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "string",
-              "DocumentMoniker": "E:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\include\\string",
-              "ToolTip": "E:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\include\\string",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-03-23T06:37:10.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "16.3\u5B57\u7B26\u4E32\u5E94\u7528.cpp",
               "DocumentMoniker": "D:\\Users\\Administrator\\Desktop\\C\u002B\u002B\\C\u002B\u002B \u5B66\u4E60\u4EE3\u7801\\C\u002B\u002B\u5B66\u4E60\\16.3\u5B57\u7B26\u4E32\u5E94\u7528\\16.3\u5B57\u7B26\u4E32\u5E94\u7528.cpp",
               "RelativeDocumentMoniker": "16.3\u5B57\u7B26\u4E32\u5E94\u7528\\16.3\u5B57\u7B26\u4E32\u5E94\u7528.cpp",
               "ToolTip": "D:\\Users\\Administrator\\Desktop\\C\u002B\u002B\\C\u002B\u002B \u5B66\u4E60\u4EE3\u7801\\C\u002B\u002B\u5B66\u4E60\\16.3\u5B57\u7B26\u4E32\u5E94\u7528\\16.3\u5B57\u7B26\u4E32\u5E94\u7528.cpp",
               "RelativeToolTip": "16.3\u5B57\u7B26\u4E32\u5E94\u7528\\16.3\u5B57\u7B26\u4E32\u5E94\u7528.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-03-23T06:33:22.123Z",
               "EditorCaption": ""
