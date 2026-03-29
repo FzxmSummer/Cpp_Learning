@@ -42,4 +42,26 @@
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools"
     },
+    // ========== 可选：增强C++注释效果 ==========
+    // 触发序列：输入 /** 回车生成
+    "doxdocgen.c.triggerSequence": "/**",
+    // 注释前缀：每行用 /// 开头（C# 风格）
+    "doxdocgen.c.commentPrefix": "/// ",
+    // 首行/尾行清空，避免多余 /** */ 包裹
+    "doxdocgen.c.firstLine": "",
+    "doxdocgen.c.lastLine": "",
+    // 注释内容顺序：简要说明 → 参数 → 返回值
+    "doxdocgen.generic.order": [
+        "brief",
+        "param",
+        "return"
+    ],
+    // 模板内容（可自定义）
+    "doxdocgen.generic.briefTemplate": "函数/类简要说明",
+    "doxdocgen.generic.paramTemplate": "@param {param} 参数说明",
+    "doxdocgen.generic.returnTemplate": "@return 返回值说明",
+    // 可选：作者、日期
+    "doxdocgen.generic.authorName": "你的名字",
+    "doxdocgen.generic.dateFormat": "YYYY-MM-DD",
+    "doxdocgen.generic.dateTemplate": "@date {date}"
 }
